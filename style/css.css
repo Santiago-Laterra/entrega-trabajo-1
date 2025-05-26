@@ -13,26 +13,48 @@ header{
   background-color: rgb(0, 0, 0);
   border: solid 5px rgb(208, 232, 139);
 }
-.nav-flex img {
+
+
+.nav-flex img { /*Estilos a la imagen*/
   border-radius: 50%;
   width: 200px;
 
 }
-.nav-flex{
+.nav-flex{  /*Organizo el ancho del header*/
   display: flex;
   justify-content: space-around;
   align-items: center;
 }
 
-.nav-items a{
+.nav-items a{ /*Personalizo los items*/
   padding: 0px 10px 2px 10px;
   font-size: 20px;
   text-decoration: none;
   color: white;
   font-style: italic;
 }
-.nav-items a:hover{
+.nav-items a:hover{ /*Le agrego un hover a cada item*/
   color: aqua;
   border-bottom: solid 1px rgb(172, 171, 171);
 }
 
+
+/* Secciones de la pagina, Lo centro */
+
+
+main{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content-section{
+  width: 600px;
+}
+
+.content-section section{
+  margin: 20px;
+  padding: 20px;
+  border: solid 5px black;
+}
