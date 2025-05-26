@@ -7,7 +7,7 @@
 
 
 body{
-  background-color: rgba(107, 171, 235, 0.616);
+  background-color: rgba(36, 201, 239, 0.29);
 
 }
 header{
@@ -53,6 +53,7 @@ main{
 }
 
 .content-section{
+    margin-top: 40px;
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
 }
