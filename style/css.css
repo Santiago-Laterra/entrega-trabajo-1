@@ -7,7 +7,7 @@
 
 
 body{
-  background-color: rgba(36, 201, 239, 0.29);
+  background-color: rgb(233, 239, 255);
 
 }
 header{
@@ -37,7 +37,7 @@ header{
   font-style: italic;
 }
 .nav-items a:hover{ /*Le agrego un hover a cada item*/
-  color: aqua;
+  color: rgb(47, 180, 247);
   border-bottom: solid 1px rgb(172, 171, 171);
 }
 
@@ -61,22 +61,34 @@ main{
 .content-section section{
   margin: 20px;
   padding: 20px;
-  border: solid 5px black;
+  border: solid 2px rgb(160, 252, 2);
+  background-color: rgb(213, 219, 248);
 }
-section h1{
+section h1,h3{
   text-align: center;
 }
 section .presentacion{
   font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
   font-size: 19px;
   font-style: oblique;
+
   padding-top: 5px;
 }
-
+.proyect-content h1{
+  margin-bottom: 10px;
+}
+.proyects h3{
+  margin: 10px;
+}
+.proyects img {
+  width: 100%;
+}
 section .abi-know{
   list-style-type:circle;
   font-size: 20px;
   padding-top: 10px;
   padding-left: 10px;
 }
+
+
 
