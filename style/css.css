@@ -72,3 +72,11 @@ section .presentacion{
   font-style: oblique;
   padding-top: 5px;
 }
+
+section .abi-know{
+  list-style-type:circle;
+  font-size: 20px;
+  padding-top: 10px;
+  padding-left: 10px;
+}
+
